@@ -1,0 +1,7 @@
+package: github.com/tahsinrahman/hello-kube-controller
+import:
+- package: k8s.io/client-go
+  version: ~10.0.0
+  subpackages:
+  - kubernetes
+  - tools/clientcmd
